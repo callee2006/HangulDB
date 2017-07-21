@@ -43,10 +43,14 @@ Journal on Document Analysis and Recognition, 2016.
 &lt;image data> := 256 gray data (width * height bytes, row-major format)
 
 
+<br>
+<br>
 
 DisplayHGU1.cpp contains C/C++ functions to read and write images in HGU1 format.
 
 
+<br>
+<br>
 
 God bless you!
 
