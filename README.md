@@ -20,6 +20,8 @@ Handwritten Hangul recognition was known as very difficult problem due to the ab
 
 
 * References
+<br>
+
 [Kim16] In-Jung Kim, Changbeom Choi and Sang-Heon Lee, Improving discrimination ability of convolutional neural networks by hybrid learning, International 
 Journal on Document Analysis and Recognition, 2016.
 
