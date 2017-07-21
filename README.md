@@ -32,12 +32,12 @@ Journal on Document Analysis and Recognition, 2016.
 * HGU1 file format
 .hgu1 file contains multiple character images. It is composed of a file header (8 bytes), followed by a series of images (variable length).
 
-&lthgu1 file> := &ltfile header> &ltimage1> &ltimage2> &ltimage3> ...
-&ltfile header> := "HGU1    " (8 bytes)
+&lt hgu1 file> := &lt file header> &lt image1> &lt image2> &lt image3> ...
+&lt file header> := "HGU1    " (8 bytes)
 
-&ltimageN> := &ltimage header> &ltimage data>
-&ltimage header> := &ltcode (2 bytes)> &ltwidth (1 byte)> &ltheight(1 byte)> &ltreserved(2 bytes)>
-&ltimage data> := 256 gray data (width * height bytes, row-major format)
+&lt imageN> := &lt image header> &lt image data>
+&lt image header> := &lt code (2 bytes)> &lt width (1 byte)> &lt height(1 byte)> &lt reserved(2 bytes)>
+&lt image data> := 256 gray data (width * height bytes, row-major format)
 
 
 
