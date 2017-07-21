@@ -1,6 +1,6 @@
 This repository contains three sets of handwritten Hangul Datasets: PE92, SERI95, and HanDB.
 
-
+<br>
 * A Brief History of PE92, SERI95, and HanDB.
 
 PE92 handwritten Hangul dataset was collected by POSTECH, funded by ETRI(www.etri.re.kr) in 1992. It has 2350 classes, each of which contains about 100 samples. SERI95 was collected by Korea University, funded by SERI (System Engineering Research Institute), which was merged with ETRI in 1997. SERI95 has 520 the most frequently used Hangul characters, each of which contains about 1000 samples.
@@ -12,13 +12,13 @@ The format of the two datasets are different from the original ones. In 1990's, 
 Unfortunatelly, neither of PE92 nor SERI95 is sufficient for practical applications: PE92 contains too few samples, while SERI95 contains too few classes. Therefore, Injung merged the two datasets and named it HanDB. HanDB contains 2350 classes. Among them, 520 classes has about 1000 samples, while other classes has about 100 samples.
 
 
-
+<br>
 * Reported results on PE92 and SERI95
 
 Handwritten Hangul recognition was known as very difficult problem due to the abundance of confusing patterns and cursive writing style. Up to 2013, the best performances were merely 85.99% on PE92 and 93.71% on SERI95 [Park&Kim13]. However, Kim applied convolutional neural networks (CNN) to handwritten Hangul recognition for the first time, and achieved much superior results: 92.92% on PE92 and 95.96% on SERI95 [Kim15]. After that, he improved more by applying a hybrid learning algorithm[Kim16]. The best performances achived so far are 96.34% on SERI92 and 97.67% on SERI95, respectively.
 
 
-
+<br>
 * References
 
 [Kim16] In-Jung Kim, Changbeom Choi and Sang-Heon Lee, Improving discrimination ability of convolutional neural networks by hybrid learning, International 
@@ -29,7 +29,7 @@ Journal on Document Analysis and Recognition, 2016.
 [Park&Kim13] Gyu-Ro Park, In-Jung Kim, and Cheng-Lin Liu, "An evaluation of statistical methods in handwritten Hangul recognition," International Journal on Document Analysis and Recognition, vol.16, issue 3, pp.273-283, Sep.2013.
 
 
-
+<br>
 * HGU1 file format
 .hgu1 file contains multiple character images. It is composed of a file header (8 bytes), followed by a series of images (variable length).
 
