@@ -32,12 +32,12 @@ Journal on Document Analysis and Recognition, 2016.
 * HGU1 file format
 .hgu1 file contains multiple character images. It is composed of a file header (8 bytes), followed by a series of images (variable length).
 
-<hgu1 file> := <file header> <image1> <image2> <image3> ...
-<file header> := "HGU1    " (8 bytes)
+&lthgu1 file> := &ltfile header> &ltimage1> &ltimage2> &ltimage3> ...
+&ltfile header> := "HGU1    " (8 bytes)
 
-<imageN> := <image header> <image data>
-<image header> := <code (2 bytes)> <width (1 byte)> <height(1 byte)> <reserved(2 bytes)>
-<image data> := 256 gray data (width * height bytes, row-major format)
+&ltimageN> := &ltimage header> &ltimage data>
+&ltimage header> := &ltcode (2 bytes)> &ltwidth (1 byte)> &ltheight(1 byte)> &ltreserved(2 bytes)>
+&ltimage data> := 256 gray data (width * height bytes, row-major format)
 
 
 
@@ -47,7 +47,7 @@ DisplayHGU1.cpp contains C/C++ functions to read and write images in HGU1 format
 
 God bless you!
 
-Prof. Injung Kim (ijkim@handong.edu, deeplearning.handong.edu or pro.handong.edu/callee)
+Prof. Injung Kim (ijkim@handong.edu, deeplearning.handong.edu or pro.handong.edu/callee),
 School of Computer Science and Eletrical Engineering
 Handong Global University (www.handong.edu).
 
