@@ -3,7 +3,7 @@ This repository contains three sets of handwritten Hangul Datasets: PE92, SERI95
 
 * A Brief History of PE92, SERI95, and HanDB.
 
-PE92 handwritten Hangul dataset was collected by POSTECH, funded by ETRI(www.etri.re.kr) in 1992. It has 2350 classes, each of which contains about 100 samples. SERI95 was collected by Koera University, funded by SERI (System Engineering Research Institute), which was merged with ETRI in 1997. SERI95 has 520 the most frequently used Hangul characters, each of which contains about 1000 samples.
+PE92 handwritten Hangul dataset was collected by POSTECH, funded by ETRI(www.etri.re.kr) in 1992. It has 2350 classes, each of which contains about 100 samples. SERI95 was collected by Korea University, funded by SERI (System Engineering Research Institute), which was merged with ETRI in 1997. SERI95 has 520 the most frequently used Hangul characters, each of which contains about 1000 samples.
 
 Originally, ETRI had legal right on the two dataset. However, the two datasets were lost for many years. None of ETRI, POSTECH, and Korea Univ. preserved the two datasets. Fortunatelly, Prof. Injung Kim of Handong Global University kept a copy of the two handwritten Hangul datasets. ETRI kindly agreed that Handong Global University may open PE92 and SERI95 datasets to public. Up to my knowledge, PE92 and SERI95 are the only handwritten Hangul datasets publically available, and you can download them here.
 
