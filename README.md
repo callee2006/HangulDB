@@ -54,6 +54,11 @@ DisplayHGU1.cpp contains C/C++ functions to read and write images in HGU1 format
 
 
 <br>
+<b>* Erroneous samples</b>
+PE92 and SERI95 contain some erroneous samples. Particularly, PE92 has a substantial amount of mislableled samples. Most of them are found at the end of files. (I guess there was a bug in one or more programs used to process PE92, before it was delivered to Prof. Kim.)
+In order to avoid problems caused by mislabeled samples, it is recommended to remove last few samples from PE92. It would be greately appreciated if someone filters the erroneous samples and provides it to update the datasets.
+
+<br>
 <br>
 
 God bless you!
