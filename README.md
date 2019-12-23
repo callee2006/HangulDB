@@ -9,7 +9,7 @@ Originally, ETRI had legal right on the two dataset. However, the two datasets w
 
 The format of the two datasets are different from the original ones. In 1990's, KAIST AI lab converted them into other formats. Later, Prof. Injung Kim unified their formats into .HGU1 format, described below, and separated them into two groups: a training set containing 90% of samples, and a test set containing 10% of samples.
 
-Unfortunatelly, neither of PE92 nor SERI95 is sufficient for practical applications: PE92 contains too few samples, while SERI95 contains too few classes. Therefore, Injung merged the two datasets and named it HanDB. HanDB contains 2350 classes. Among them, 620 classes has about 1000 samples, while other classes has about 100 samples.
+Unfortunatelly, neither of PE92 nor SERI95 is sufficient for practical applications: PE92 contains too few samples, while SERI95 contains too few classes. Therefore, Injung merged the two datasets and named it HanDB. HanDB contains 2350 classes. Among them, 520 classes has about 1100 samples, while other classes has about 100 samples.
 
 
 <br>
